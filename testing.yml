@@ -1,0 +1,8 @@
+---
+- name: Test Playbook
+  hosts: all
+  tasks:
+    - name: tesing ping
+      yum:
+        name: telnet
+        state: present
